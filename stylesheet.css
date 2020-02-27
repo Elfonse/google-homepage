@@ -1,4 +1,44 @@
+#search-wrapper{
+    text-align: center;
+}
+
 #search-section{
-    position: fixed left: 150px; top 80px;
-    background-color: pink;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    margin-top: -50px;
+    margin-left: -50px;
+    width: 100px;
+    height: 100px;
+
+    
+}
+
+#search-bar{
+    width: 450px;
+    height: 30px;
+
+
+}
+
+li{
+
+    float:left;
+
+}
+
+ul{
+
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+li a{
+
+    display: block;
+    padding: 8px;
+    
+
 }
