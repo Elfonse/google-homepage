@@ -66,7 +66,16 @@ li a{
 
     display: block;
     padding: 8px;
+    color: #5F6368;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
     
+
+}
+
+a:hover{
+    text-decoration: underline;
 
 }
 
@@ -83,6 +92,14 @@ background-color: #f2f2f2;
 #search-btn{
     position: fixed;
     top: 45%;
-    left: 50%;
+    left: 47%;
+}
+
+.button-style{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 140px;
+    height: 360px;
+    text-align: center;
+    display: inline-block;
 
 }
