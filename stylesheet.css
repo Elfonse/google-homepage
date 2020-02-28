@@ -17,7 +17,20 @@
 #search-bar{
     width: 450px;
     height: 30px;
+    border-radius: 25px;
 
+
+}
+
+#search-bar-input{
+    position: absolute;
+    top: 45%;
+    left: 40%;
+    margin-top: -50px;
+    margin-left: -50px;
+    width: 100px;
+    height: 100px;
+    
 
 }
 
@@ -49,5 +62,13 @@ left: 0px;
 bottom: 0px;
 height: 30px;
 width: 100%;
+background-color: #f2f2f2;
+
+}
+
+#search-btn{
+    position: fixed;
+    top: 45%;
+    left: 50%;
 
 }
